@@ -174,6 +174,7 @@
 <?= $this->Html->css('UploadManager.image_manipulation') ?>
 <?= $this->Html->script('UploadManager.lib/jquery.imgareaselect.min') ?>
 <?= $this->Html->script('UploadManager.toggle') ?>
+<?= $this->Html->script('UploadManager.crop') ?>
 <?= $this->Html->script('UploadManager.resize') ?>
 <?= $this->Html->script('UploadManager.link') ?>
 

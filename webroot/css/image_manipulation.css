@@ -118,6 +118,19 @@ input {
     cursor: pointer;
 }
 
+/**
+ *  Size Input Fields
+ */
+input#width {
+  margin-bottom: 10px;
+}
+input#height {
+  margin-top: 10px;
+}
+
+.form-group.text {
+  margin-bottom: 0px;
+}
 
 /**
  *  Desktop 

@@ -6,12 +6,10 @@
  *  CakePHP v3.x, written by Dave Mariano.  It must be included in 
  *  imageManipulation.ctp.
  *
- *  When the page loads, initial values of actual image width and 
- *  height as well as CSS width and height are recorded.  When the 
- *  user stretches/skews the corners of an image, changing its size, 
- *  the fields associated with the resize action change change as well.
+ *  This script will change/toggle how the cursor functions with
+ *  the image being manipulated.
  *
- *  When the user let's go of the mouse, the temporary image is updated.
+ *  There are two modes: crop or resize
  *
  */
 
