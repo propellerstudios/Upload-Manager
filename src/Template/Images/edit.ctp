@@ -1,0 +1,1 @@
+<?= $this->element('UploadManager.imageManipulation') ?>

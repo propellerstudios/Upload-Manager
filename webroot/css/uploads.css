@@ -1,0 +1,32 @@
+/* Upload Details */
+ul.upload-details {
+  list-style-type: none;
+  margin: 0;
+  margin-left: 5px;
+  padding: 0;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: 11px;
+}
+
+/* Upload Block */
+.upload-block {
+  display: inline-block;
+  margin-right: 5px;
+  width: 130px;
+}
+
+.btn.btn-upload {
+  background-color: #333333;
+  vertical-align: middle;
+}
+
+.btn.btn-upload:hover {
+  border-color: #CCCCCC;
+}
+
+.upload-action:hover {
+    background-color: #333333;
+}
+
+

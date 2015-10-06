@@ -1,0 +1,155 @@
+input {
+  height: 25px !important;
+  width: 60px !important;
+  font-size: 15px !important;
+  padding: 6px 12px !important;
+}
+
+:focus {
+  outline: none;
+}
+::-moz-focus-inner {border:0;}
+
+.image-man {
+  text-align: center;
+  width: 800px;
+}
+
+
+/**
+ * File Control Buttons
+ */
+.file-controls {
+    padding: 10px;
+    border-bottom: solid black;
+}
+
+.file-controls form {
+    display: inline-block;
+}
+
+.save-man, .cancel-man {
+    display: inline-block;
+}
+
+
+/**
+ *  Manipulation view, frame, and image styles
+ */
+.image-man-view {
+    border: solid black;
+    
+}
+
+.image-man-frame {
+    resize: both;
+    overflow: hidden;
+    
+}
+
+.image-man-image {
+  height: auto;
+  height: 100%;
+  width: auto;
+  width: 100%;
+  max-width: 100%;
+  max-height: 100%;
+} 
+
+
+/**
+ *  Image manipulation controls
+ */
+.image-controls {
+  padding: 10px;
+  border-top: solid black;
+}
+
+.image-controls ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.image-controls ul li {
+  display: inline-block;
+}
+
+.flip-rotate {
+  padding: 10px;
+  display: inline-block;
+}
+
+.sizing {
+  border-left: medium solid black;
+  padding: 15px;
+  display: inline-block;
+}
+
+.size-fields, .crop-control, .resize-control {
+  display: inline-block;
+}
+
+.btn:focus {
+  border: 1px solid #CCCCCC;
+  border-radius: 4px;
+}
+
+.crop, .resize {
+  display: inline-block;
+  border-color: #333333;
+}
+
+.crop.active, .resize.active {
+  border-color: #CCCCCC;
+}
+
+.man-action {
+  margin: none;
+  padding: 3px;
+}
+
+.resize-link-btn {
+  background: none;
+  border: none;
+}
+
+#resize-link-btn, #crop-link-btn {
+    cursor: pointer;
+}
+
+
+/**
+ *  Desktop 
+ */
+@media all and (min-width: 780px) {
+  .image-man-view {
+    height: 700px;
+    width: 800px;
+  }
+    
+  .image-man-frame {
+    width: 400px;
+    height: auto;
+    max-height: 695px;
+    max-width: 795px;
+  }
+  
+}
+
+/**
+ *   Mobile Devices 
+ */
+@media all and (max-width: 780px) {
+  .image-man-view {
+    height: 550px;
+    width: 550px;
+  }
+  
+  .image-man-frame {
+    width: 200px;
+    max-height: 545px;
+    max-width: 545px;
+  } 
+}
+

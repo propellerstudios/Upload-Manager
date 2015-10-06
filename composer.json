@@ -1,0 +1,25 @@
+{
+    "name": "propellerstudios/Upload-Manager",
+    "description": "UploadManager plugin for CakePHP",
+    "type": "cakephp-plugin",
+    "require": {
+        "php": ">=5.4.16",
+        "cakephp/cakephp": "~3.0",
+        "ext-imagick": "*",
+        "imagine/imagine": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Propeller\\UploadManager\\": "src"
+        }   
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Propeller\\UploadManager\\Test\\": "tests",
+            "Cake\\Test\\": "./vendor/cakephp/cakephp/tests"
+        }
+    }
+}
