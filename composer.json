@@ -1,7 +1,14 @@
 {
     "name": "propellerstudios/Upload-Manager",
     "description": "UploadManager plugin for CakePHP",
+    "authors": [
+        {
+            "name": "Dave Mariano",
+            "email": "dave.mariano1991@gmail.com"
+        }
+    ],
     "type": "cakephp-plugin",
+    "minimum-stability": "dev",
     "require": {
         "php": ">=5.4.16",
         "cakephp/cakephp": "~3.0",
