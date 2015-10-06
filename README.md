@@ -9,3 +9,5 @@ The recommended way to install composer packages is:
 ```
 composer require your-name-here/UploadManager
 ```
+
+An upload manager plugin for CakePHP 3.x
